@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: siwp2005-nayla-sort
+Version: 0.0.1
+Summary: Koleksi algoritma pengurutan.
+Home-page: https://github.com/naylalizhar/siwp2005-nayla-sort.git
+Author: Nayla
+Author-email: naylalizhar239@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=61.0
+
+# SI-UKKW-SIWP2005_OOP_2024 Object-Oriented Programming
+
+## HW#3: Build Your Own Python Package
+
+### Overview
+Dalam tugas ini, Anda akan membuat, membangun, dan mempublikasikan paket Python ke PyPi. Paket yang Anda kembangkan adalah koleksi algoritma pengurutan yang dapat digunakan untuk mengurutkan daftar angka. Paket ini akan mencakup beberapa algoritma pengurutan umum seperti bubble sort, insertion sort, dan quick sort. Anda akan mengikuti praktik terbaik untuk menyusun paket Anda, menulis dokumentasi, dan mempublikasikannya di PyPi.
+
+### Objectives
+- Memahami struktur paket Python.
+- Menulis file setup.py untuk menentukan detail paket.
+- Membuat file README.md dengan instruksi penggunaan.
+- Mendaftarkan akun di PyPi.
+- Membangun paket menggunakan setuptools dan wheel.
+- Mengupload paket ke PyPi menggunakan twine.
+- Memverifikasi paket di PyPi.
+
+### Evaluation Criteria
+- Struktur paket Python yang benar.
+- Kelengkapan dan kebenaran setup.py dan README.md.
+- Keberhasilan registrasi dan upload ke PyPi.
+- Kode algoritma pengurutan yang jelas dan terdokumentasi dengan baik.
+- Verifikasi fungsionalitas paket di PyPi.
+
+### Project Structure
+siwp2005-nayla-sort/
+â”‚
+â”œâ”€â”€ CHANGES.txt
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ MANIFEST.in
+â”œâ”€â”€ pyproject.toml
+â”œâ”€â”€ README.md
+â”œâ”€â”€ setup.cfg
+â”œâ”€â”€ setup.py
+â”œâ”€â”€ src/
+â”‚ â””â”€â”€ sort/
+â”‚ â”œâ”€â”€ bubble_sort.py
+â”‚ â”œâ”€â”€ init.py
+â”‚ â”œâ”€â”€ insertion_sort.py
+â”‚ â””â”€â”€ quick_sort.py
+â””â”€â”€ tests/
+â”œâ”€â”€ init.py
+â”œâ”€â”€ test_bubble_sort.py
+â”œâ”€â”€ test_insertion_sort.py
+â””â”€â”€ test_quick_sort.py
